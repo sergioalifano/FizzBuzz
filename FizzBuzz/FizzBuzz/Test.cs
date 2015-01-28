@@ -19,7 +19,7 @@ namespace FizzBuzz
         {
             StringAssert.AreEqualIgnoringCase("7", Program.FizzBuzz(7));
         }
-        [Ignore]
+       
         [Test, Timeout(500)]
         public void testFizzBuzzNegative()
         {
